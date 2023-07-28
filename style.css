@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    left: 78%;
+    top: 5%;
+    width: 300px;
+}
+
+@keyframes rotate1 {
+    0% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: 20deg;
+    }
+    100% {
+        rotate: 0deg;
+    }
+}
+
+.drink1 {
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    background-color: rgb(103, 165, 103);
+    border-radius: 50%;
+    left: 59%;
+    top: -1100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.drink1 img {
+    height: 30%;
+    position: absolute;
+    top: 8%;
+    left: 31%;
+}
+
+.drink1:hover img {
+    animation-name: rotate1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.drink1 h3 {
+    position: absolute;
+    top: 28%;
+    left: 9%;
+    color: white;
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+}
+
+.drink1 h4 {
+    position: absolute;
+    top: 33%;
+    left: 14.5%;
+    color: white;
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+}
+
+.drink1 button {
+    position: absolute;
+    top: 38%;
+    left: 11.5%;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+#dri2,
+#dri3,
+#dri4,
+#dri5 {
+    display: none;
+}
+
+@keyframes scale1 {
+    0% {
+        scale: 1;
+    }
+    50% {
+        scale: 1.07;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+.donut1 {
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    background-color: rgb(103, 165, 103);
+    border-radius: 50%;
+    left: -43%;
+    top: -600px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.donut1 img {
+    height: 23%;
+    position: absolute;
+    top: 53%;
+    left: 58%;
+}
+
+.donut1 h3 {
+    position: absolute;
+    top: 77%;
+    left: 60%;
+    color: white;
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+}
+
+.donut1 h4 {
+    position: absolute;
+    top: 82%;
+    left: 67%;
+    color: white;
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+}
+
+.donut1 button {
+    position: absolute;
+    top: 87%;
+    left: 63.5%;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.donut1:hover img {
+    animation-name: scale1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#don2,
+#don3,
+#don4 {
+    display: none;
+}
+
+.donmenu {
+    position: relative;
+    top: -1150px;
+    left: 550px;
+    list-style: none;
+}
+
+.donmenu li {
+    display: inline-block;
+}
+
+.donmenu img {
+    width: 65px;
+    cursor: pointer;
+}
+
+.donmenu img:hover {
+    animation-name: scale1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.drimenu {
+    position: relative;
+    display: inline-block;
+    top: -1870px;
+    left: 580px;
+    list-style: none;
+}
+
+.drimenu li {
+    display: inline-block;
+}
+
+.drimenu img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.drimenu img:hover {
+    animation-name: scale1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#total,
+table {
+    position: absolute;
+    top: 32%;
+    left: 38%;
+    overflow-x: hidden;
+    width: 380px;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.cart {
+    position: absolute;
+    left: 73%;
+    top: 8%;
+    font-size: 25px;
+    height: 70px;
+}
+
+.cart i {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.cart sub {
+    padding: 0px 5px;
+}
