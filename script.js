@@ -174,6 +174,7 @@ dbtn5.onclick = function() {
     totalPrice += +dprice5.getAttribute("price");
 }
 var cart = document.querySelector(".cart")
+var table = document.querySelector("table")
 cart.onclick = function() {
     first.innerHTML += "<br>" + "total"
     sec.innerHTML += "<br>" + totalPrice + " $"
@@ -182,4 +183,5 @@ cart.onclick = function() {
     sub1.style.borderRadius = "0%"
     sub1.innerHTML = 0
     total.style.opacity = 1
+    table.style.opacity = 1
 }
